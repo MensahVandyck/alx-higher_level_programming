@@ -1,4 +1,7 @@
 #!/usr/bin/python3
-append_after = __import__('100-append_after').append_after
+MyInt = __import__('100-my_int').MyInt
 
-append_after("append_after_100.txt", "Python", "\"C is fun!\"\n")
+my_i = MyInt(3)
+print(my_i)
+print(my_i == 3)
+print(my_i != 3)
